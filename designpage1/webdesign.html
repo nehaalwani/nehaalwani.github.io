@@ -1,0 +1,351 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>webdesign</title>
+<link rel="stylesheet"href="webdesign.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+ </script>
+ <script>
+ $(function () {
+          $(".round_button").click(function () {
+            var r = Math.floor(Math.random()*0);
+            var g = Math.floor(Math.random()*256);
+            var b = Math.floor(Math.random()*256);
+            var t = "rgb("+r+","+g+","+b+")";
+            var u = "rgb("+0+","+(127-g)+","+(127-b)+")";
+            $("#p8").css({"background":  t, "color": u});
+          });
+      });   
+ </script>
+
+</head>
+
+<body>
+
+	<header>
+	<div class="hcontainer">
+	<a href="webdesign.html"> <img id="head_logo" src="images/head_logo.jpg"/> </a>
+	<a href="mailto:cs@corey.com?Subject=Website%20Mail"> <img id="head_mail" src="images/mail.jpg"> </a>
+	<ul>
+	<a href="#"> <li> HOME </li> </a>
+	<a href="#"> <li> ABOUT </li> </a>
+	<a href="#"> <li> SERVICES </li> </a>
+	<a href="#"> <li> PORTFOLIO </li> </a>
+	<a href="#"> <li> PRICE </li> </a>
+	<a href="#"> <li> BLOG <svg height="10" width="20"><polygon points="2,2 8,8 14,2"style="fill:purple" /></svg></li></a>
+	</ul>
+        </div>
+	</header>
+     <div id="p1_s2" >
+	<div class="content white">
+		<div id="page1_content" >
+			<div class="heading"> We Will <b>Make</b> Your <b>Bussiness</b> Great Again </div>
+			<p id="para" class="pwidth"> Qnsectetur adipisicing elit.Impedit repudiance nisi maiores dolore dolor. </p>
+						<BR/>
+			<a href="#"> <div class="round_button" > CONTACT US </div> </a>
+			<a href="#"> <div class="round_button" > DISCOVER NOW </div> </a>
+		</div>
+		<img id="scroll_arrow" src="images/icons/darrow.png" height="19" width="30">
+	</div>
+  </div>
+  <div id="p2">
+	<div class="content purple">
+		<div id="block1">
+			<div class="subheading"> Hello <b>World</b> </div>
+			<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+			<ul>
+			<li> <object fill="yellow" type="image/svg+xml" data="images/icons/i-diamond_b.svg" height="30" width="30"> </object>Exploring your area of activity </li>
+			<li> <object fill="yellow" type="image/svg+xml" data="images/icons/i-wallet_b.svg" height="30" width="30"> </object> Competitive Analysis </li>
+			<li> <object fill="yellow" type="image/svg+xml" data="images/icons/i-trophy_b.svg" height="30" width="30"> </object> Do the work in time </li>
+			</ul>
+		</div>
+
+		<div id="block2">
+			<img id="block2_img" src="images/img-3.jpg" height="370" width="555">
+		</div>
+
+	</div>
+</div>
+
+<div id="p3">
+	<div id="p3_content" class="content white">
+		<div class="subheading">Some of our <b>best services</b> to solve your problems</div>
+			<div id="p3_3sections">
+				<div class="p3_section">
+					<div  id="test" class="circle">
+					<object class="inside_circle" type="image/svg+xml" data="images/icons/i-message.svg" height="60" width="60"> </object> 
+					</div>
+				<h3> Digital Marketing </h3>
+				<p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+				</div>
+
+			<div class="p3_section">
+				<div class="circle">
+				<object class="inside_circle" type="image/svg+xml" data="images/icons/i-feature.svg" height="60" width="60"> </object>
+				</div>
+				<h3> Web Development </h3>
+				<p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+			</div>
+
+			<div class="p3_section">
+				<div class="circle">
+				<object class="inside_circle" type="image/svg+xml" data="images/icons/i-sketch.svg" height="60" width="60"> </object>
+				</div>
+				<h3> UI/UX Design </h3>
+				<p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+			</div>
+							
+	</div>
+
+	<a > <div class="round_button" onclick="javascript:alert('Done')"> ORDER A SERVICE </div> </a>
+
+	</div>
+</div>
+<div id="p4">
+		<div id="p4_content" class="content purple">
+			<div class="subheading">
+			<b>Good design</b> is obvious<BR/>Great design is transparent.
+			</div>
+		<p> <b>About Joe &copy;</b> <font color="grey">graphic designer, digital literacy teacher</font> </p>
+			<ul>
+			<li> <a href="#"> SHOW ALL </a> </li>
+			<li> <a href="#"> DESIGN </a> </li>
+			<li> <a href="#"> CODE </a> </li>
+			<li> <a href="#"> ART </a> </li>
+			
+			</ul>
+		<div id="blocks">
+			<div class="block_column">
+				<img class="big" src="images/12-min.jpg">
+				<img class="small" src="images/2-min.jpg">
+			</div>
+			<div id="middle" class="block_column">
+				<img class="small" src="images/2-min.jpg">
+				<img class="small" src="images/2-min.jpg">
+				<img class="small" src="images/2-min.jpg">
+			</div>
+			<div class="block_column">
+				<img class="small" src="images/2-min.jpg">
+				<img class="big" src="images/12-min.jpg">
+			</div>
+
+		</div>
+	</div>
+	</div>
+
+<div id="p5">
+		<div class="content white">
+			<div id="stats_row">
+				<div class="stats_blocks">
+					<div class="circle">
+					<object class="inside_circle" type="image/svg+xml" data="images/icons/i-team.svg" height="60" width="60"> </object>
+					</div>
+					<h4> Unique customers:</h4>
+					<h1> 3519+ </h1>
+				</div>
+				<div class="stats_blocks">
+					<div class="circle">
+					<object class="inside_circle" type="image/svg+xml" data="images/icons/i-shield.svg" height="60" width="60"> </object>
+					</div>
+					<h4> Completed projects:</h4>
+					<h1> 3519+ </h1>
+				</div>
+				<div class="stats_blocks">
+					<div class="circle">
+					<object class="inside_circle" type="image/svg+xml" data="images/icons/i-diamond.svg" height="60" width="60"> </object>
+					</div>
+					<h4> Happy users:</h4>
+					<h1> 3519+ </h1>
+				</div>
+				<div class="stats_blocks">
+					<div class="circle">
+					<object class="inside_circle" type="image/svg+xml" data="images/icons/i-trophy.svg" height="60" width="60"> </object>
+					</div>
+					<h4> Honors and awards:</h4>
+					<h1> 3519+ </h1>
+				</div>
+			</div>
+		</div>
+	</div>
+ <div id="p6">
+	<div class="content purple">
+		<div class="subheading">
+		Flexible <b>Pricing</b> Plans
+		</div>
+		<p style="color:grey;"> Dolor sit Molitia harum ea ut eaque velit. </p>
+
+					
+		<div id="sections_box">
+			<div class="section_col">
+				<div class="box_intro"></div>
+				<h2> Trial Version </h2>
+				<p> This is a line which has two lines. :) Doesn't it?</p>
+				<div class="features">
+				<h1> free </h1>
+				<p> 500gb drive space <BR/>
+				Unlimited messages <BR/>
+				<span style="color:#d0cce0"> Free email address <BR/>
+				Friendly Support </span>
+				</p>
+				</div>
+			<a href="#p6"> <div class="round_button"> DOWNLOAD </div> </a>
+			</div>
+		<div id="middle" class="section_col">
+			<div class="box_intro"></div>
+				<h2> Regular </h2>
+				<p> This is a line which has two lines. :) Doesn't it?</p>
+					<div class="features">
+					<h1> <span style="font-size: 12pt"> $ </span> 19 <span style="font-size: 12pt"> /Month </span> </h1>
+				<p> 500gb drive space <BR/>
+				Unlimited messages <BR/>
+				<span style="color:#d0cce0"> Free email address <BR/>
+				Friendly Support </span>
+				</p>
+			</div>
+			<a href="#p6"> <div class="round_button"> PURCHASE </div> </a>
+		</div>
+		<div class="section_col">
+				<div class="box_intro"></div>
+				<h2> Extended </h2>
+				<p> This is a line which has two lines. :) Doesn't it?</p>
+				<div class="features">
+				<h1> <span style="font-size: 12pt"> $ </span> 29 <span style="font-size: 12pt"> /Month </span> </h1>
+				<p> 500gb drive space <BR/>
+				Unlimited messages <BR/>
+				<span style="color:#d0cce0"> Free email address <BR/>
+				Friendly Support </span>
+				</p>
+				</div>
+				<a href="#p6"> <div class="round_button"> PURCHASE </div> </a>
+		</div>
+
+		<div class="sections_box">
+		</div>
+		<div class="sections_box">
+		</div>
+	</div>
+	</div>
+	</div>
+    <div id="p7">
+		<div class="content white">
+		     <div id="part1">
+		     <div class="subheading"> <b>Testimonials</b> About Us</div>
+			<div id="nav_box">
+			<div class="box"><img src="images/icons/larrow.png" height="15" width="9.5" class="arrow"></div>
+			<div class="box"><img src="images/icons/rarrow.png" height="15" width="9.5" class="arrow"></div>
+			</div>
+			<p> Dolor sit Molitia harum ea ut eaque velit. </p>
+		     </div>
+		     <div id="part2">
+			<div class="testimonial">
+				<div class="profile">
+					<img src="images/t-1.jpeg">
+					<h2> Robert Newmen </h2>
+					<p> Microsoft Corporation </p>
+				</div>
+			<p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+			</div>
+			<div class="testimonial">
+				<div class="profile">
+					<img src="images/t-2.jpeg">
+					<h2>Robert Newmen </h2>
+					<p> Space - X </p>
+				</div>
+			<p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+			</div>
+	</div>
+	</div>
+	</div>
+    <div id="p8">
+		<div class="content purple">
+			<div id="top_content">
+				<div class="subheading">
+					Latest <b>blog</b> posts
+				</div>
+				<p><span style="color: grey">Dolor sit Molitia harum ea ut eaque velit.</span></p>
+			</div>
+			<div id="blog_container">
+				<div class="blog_column">
+					<img src="images/img-2.jpg">
+					<div class="column_lower">
+						<h3> Fuga ab quisadam culpa aliquid eis vitae</h3>
+						<p> Delectus culpa in consequuntur nemo non reprehendent repeliat delennti sunt...</p>
+						<a href="#p8"> <div class="round_button">Read More</div> </a>
+					</div>
+				</div>
+				<div class="blog_column">
+					<img src="images/img-2.jpg">
+					<div class="column_lower">
+						<h3> Fuga ab quisadam culpa aliquid eis vitae</h3>
+						<p> Delectus culpa in consequuntur nemo non reprehendent repeliat delennti sunt...</p>
+						<a href="#p8"> <div class="round_button">Read More</div> </a>
+					</div>
+				</div>				
+				<div class="blog_column">
+					<img src="images/img-2.jpg">
+					<div class="column_lower">
+						<h3> Fuga ab quisadam culpa aliquid eis vitae</h3>
+						<p> Usually upon hovering, non hover properties are overridden. But if hover is coming from some class, then they are not overridden.</p>
+						<a href="#p8"> <div class="round_button">Read More</div> </a>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+<footer>
+	<div class="content white">
+		<div id="footer_logo">
+			<img src="images/logo-footer.jpg">
+		</div>
+
+		<div id="footer_inner">
+			<div class="footer_columns">
+				<h2> Company </h2>
+				<ul>
+				<li> <a href="#"> ABOUT </a> </li>
+				<li> <a href="#"> SUPPORT </a> </li>
+				<li> <a href="#"> PRESS </a> </li>
+				<li> <a href="#"> LEGAL & PRIVACY </a> </li>
+				</ul>
+			</div>
+
+			<div class="footer_columns">
+				<h2> Quick Links </h2>
+				<ul>
+				<li> <a href="#"> NEWS </a> </li>
+				<li> <a href="#"> CONTACT US </a> </li>
+				<li> <a href="#"> FAQ </a> </li>
+				</ul>
+			</div>
+			<div class="footer_columns">
+				<h2> Social </h2> 
+				<ul>
+				<li> <a href="#"> FACEBOOK </a> </li>
+				<li> <a href="#"> GOOGLE + </a> </li>
+				<li> <a href="#"> TWITTER </a> </li>
+				<li> <a href="#"> INSTAGRAM </a> </li>
+				</ul>
+			</div>
+			<div id="last" class="footer_columns">
+				<h2> Subscribe newsletter </h2>
+					<div id="subscribe_box">
+						<div id="envelope"> <a href="#"> <img src="images/icons/i-message.svg" height="25" width="25"> </a> 
+						</div>
+						<div id="email"> <input type="text">
+						 </div>
+					</div>
+			</div>
+			</div>
+
+			<hr id="last_line">
+			<div id="copyright">
+				<p> COPYRIGHT &copy; ALL RIGHTS RESERVED LATE 2018 | DESIGN AND DEVELOPED</p>
+			</div>
+		</div>
+		</footer>
+</body>
+</html>
