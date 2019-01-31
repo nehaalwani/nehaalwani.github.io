@@ -2,9 +2,41 @@
 
 <head>
 	<link rel="stylesheet" href="ex4.css">
-   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+    $('#img_l').click(function() {
+        $('#banner h1').animate({
+        'marginTop' : "+=30px" 
+        });
+    });
+
+    $('#img_r').click(function() {
+        $('#banner h1').animate({
+        'marginTop' : "-=30px" 
+        });
+    });
+
+    $("#hm").click(function(){
+      	$("#ss").hide();
+
+    });
+
+    $("#cs").click(function(){
+       $("#ss").show();
+
+    });
+
+
+
+});
 
 </script>
+  
+
+
+
 </head>
 
 <body>
@@ -14,10 +46,10 @@
       		</div>
 		<div id="head2">
           	<ul id="ul">
-           	 <li> <a href="#"> Home </a> </li>
-           	 <li> <a href="#"> Services </a></li>
+           	 <li> <a href="#" id="hm"> Home </a> </li>
+           	 <li> <a href="#" id="ss"> Services </a></li>
            	 <li> <a href="#"> Profile </a></li>
-           	 <li> <a href="#"> Contact Us </a></li>          
+           	 <li> <a href="#" id="cs"> Contact Us </a></li>          
           	</ul>
       		</div>
     </header>
@@ -47,7 +79,7 @@
           <option value="1">  </option>
 	  <option value="2">  </option>
         </select>
-         
+         <br>
          <button class="bt" onclick="javascript:alert('Done')">  Submit </button>            
       </form>
       
